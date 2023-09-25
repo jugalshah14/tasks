@@ -1,0 +1,57 @@
+.container{
+    margin-top: 30px;
+    margin-bottom: 50px; 
+}
+.input-group{
+    margin-top: 100px;
+}
+#sort-container{
+    margin-top:30px;
+    margin-bottom: 30px;
+    text-align: end;
+}
+.card{
+    border: none !important;
+}
+.cart-item {
+    display: flex;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.cart-item img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+.total-price{
+    margin: 50px;  
+}
+#total-items{
+    margin: 50px;
+}
+#total-discounted-price {
+    margin: 50px;
+}
+.empty-cart-message {
+    margin: 50px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.pagination {
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+.pagination button {
+    background-color: white;
+    border: none;
+    color: grey;
+}
+
+.pagination button.active {
+    color: black;
+}

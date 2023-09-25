@@ -1,0 +1,39 @@
+ * {
+     margin: 0%;
+     padding: 0%;
+ }
+
+ .main {
+     overflow: auto;
+     position: relative;
+ }
+
+ .button {
+     display: flex;
+     justify-content: center;
+     gap: 10px;
+ }
+
+ label {
+
+     font-size: 20px;
+ }
+
+ form {
+     margin: auto;
+     padding: 20px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-radius: 10px;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+ }
+
+ input[type="text"]{
+     width: 100%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     display: inline-block;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+ }
